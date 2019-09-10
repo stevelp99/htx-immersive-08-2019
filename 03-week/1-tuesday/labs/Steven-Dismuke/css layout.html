@@ -2,16 +2,49 @@
 <html>
     <head>
         <style>
-            
+            *{
+            box-sizing: border-box;
+            }
+            .fixed-height{
+                height:50px;
+            }
+            .padding{
+                padding:200px;
+            }
+            .width{
+                width: 70%;
+            }
+            .body_height{
+                height:300px;
+            }
+            .main{
+                float:right;
+                width:30%;
+            }
+            .narrow-padding{
+                padding: 1%;
+            }
+            .border{
+                border: 2px solid black;
+            }
         </style>
     </head>
     <header>
-
+        <div class="fixed-height narrow-padding " style="background-color:grey;
+        text-align:center;">Header</div>
     </header>
     <body>
+        <div class="main body_height padding border" style="background-color: lightseagreen;
+        color:maroon;
+        text-align:center;">Main</div>
 
+        <div class="width body_height padding border" style="background-color:lightcoral;
+        color:rgb(7, 49, 75);
+        text-align:center;">Sidebar</div>
     </body>
     <footer>
-
+            <div class="fixed-height fixed-width narrow-padding " style="background-color:khaki;
+            color:rgb(184, 54, 184);
+            text-align:center;">Footer</div>
     </footer>
 </html>
