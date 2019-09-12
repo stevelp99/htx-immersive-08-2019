@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flexbox</title>
+    <style>
+        .container{
+            display:flex; 
+        }
+        .main{
+            display:flex;
+            flex-direction:row;
+            justify-content: space-between;
+        }
+        .header,.footer{
+            padding:10px;
+            background-color:chocolate;
+        }
+        .sidebar-left{
+            background-color:cornflowerblue;
+            min-width: 200px;
+            padding: 20px;
+            
+        }
+        .column2{
+            
+        }
+    </style>
+</head>
+<div class="container">
+<body>
+    <header>
+    <div class="header">header</div>
+    </header>
+    <main>
+    <div class="main">
+        <div class="sidebar-left">Column1</div>
+        <div class="column2">Column2</div>
+    </div>
+    </main>
+    <footer>
+        <div class="footer">Footer</div>
+    </footer>
+</body>
+</div>
+
+</html>

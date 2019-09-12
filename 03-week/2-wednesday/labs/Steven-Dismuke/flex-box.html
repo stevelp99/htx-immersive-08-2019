@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flex-box</title>
+    <style>
+        body{
+            margin:0;
+        }
+      .header {
+        width:100%;
+        padding:10px;
+        text-align: center;
+        background-color: rgb(150, 150, 241);
+        color: white;
+      }
+      .container {
+        display: flex;
+        flex-direction:column;
+        height:100vh;
+      }
+      .column1{ 
+        width:100%;
+        height:500px;
+        padding: 20px;
+        background-color:rgb(141, 224, 141);
+      }
+      .column2 {
+        padding:20px;
+        width:100%;
+        height:500px;
+        background-color:rgb(243, 176, 154);
+      }
+      .footer {
+        text-align: center;
+        background-color: rgb(150, 150, 241);
+        padding: 10px;
+        color: white;
+      }
+      .content{
+          display:flex;
+          justify-content: space-between;
+      }
+    </style>
+</head>
+<body>
+    
+<div class="container">
+   
+    <div class="header">header</div>    
+
+    <div class="content">
+        <div class="column1">column1</div>
+        <div class="column2">column2</div>
+    </div>
+
+    <footer>
+        <div class="footer">Footer</div>
+    </footer>
+    </div>
+</body>
+</html>
