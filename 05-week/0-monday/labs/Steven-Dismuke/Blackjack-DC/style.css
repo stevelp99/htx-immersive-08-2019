@@ -1,0 +1,38 @@
+    * {
+        box-sizing: border-box;
+    }
+    body{
+        background-color: rgba(165, 42, 42, 0.63);
+    }
+    #table {
+        background: green;
+        margin: 100px 200px 100px 100px;
+        padding: 100px 50px;
+        border: 10px solid rgb(24, 4, 4);
+        border-radius: 50px;
+    }
+    label{
+        display:flex;
+        justify-content: left;
+        height: 20px;
+        margin: 0px 10px 0px 0px;
+        padding: 20px 0px 0px 0px;
+        background:green;
+    }
+    .buttons{
+        display: flex;
+        justify-content: space-around;
+        justify-content: center;
+    }
+    .players{
+        background-color:green;
+    }
+    img {
+        display: flex;
+        width: 10%;
+        height: auto;
+      }
+    .hand{
+          display:flex;
+          justify-content: left;
+      }
