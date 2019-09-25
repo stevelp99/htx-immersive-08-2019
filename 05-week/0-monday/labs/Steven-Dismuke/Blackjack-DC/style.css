@@ -2,6 +2,8 @@
         box-sizing: border-box;
     }
     body{
+        margin:0;
+        padding:0;
         background-color: rgba(165, 42, 42, 0.63);
     }
     #table {
@@ -34,5 +36,11 @@
       }
     .hand{
           display:flex;
+          flex-direction: row;
           justify-content: left;
       }
+    #messages{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
