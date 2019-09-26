@@ -72,3 +72,25 @@ function images(card){
   }
 
   
+  document.getElementById("deal-button").addEventListener("deal-button");(function() {
+    var card, cardUrl;
+
+    dealACard(playerHand, '#player-hand');
+    dealACard(dealerHand, '#dealer-hand');
+    dealACard(playerHand, '#player-hand');
+    dealACard(dealerHand, '#dealer-hand');
+
+    console.log('playerHand', playerHand);
+    console.log('dealerHand', dealerHand);
+
+   
+  });
+  function newDeck(){
+    var cards = [];
+    for (var i = 1; i <= 13; i++) {
+      cards.push({ point: i, suit: 'spades' }); // change to Card constructor
+      cards.push({ point: i, suit: 'hearts' });
+      cards.push({ point: i, suit: 'clubs' });
+      cards.push({ point: i, suit: 'diamonds' });
+    }}
+    return cards;

@@ -1,0 +1,28 @@
+
+*{
+    box-sizing: border-box;
+}  
+body{
+    
+    background: url(./background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width:100%;
+    height:auto;
+}
+caption{
+    background-color: black;
+}
+h1{
+    display:flex;
+    justify-content: center;
+
+}
+h2{
+    display:flex;
+    justify-content: left;
+}
+h3{
+    display:flex;
+    justify-content: left;
+}
