@@ -3,20 +3,18 @@
     box-sizing: border-box;
 }  
 body{
-    
-    background: url(./background.jpg);
+    display:flex;
+    background-image: url(background.jpg);
+    background-color:grey;
     background-repeat: no-repeat;
     background-position: center;
     width:100%;
     height:auto;
 }
-caption{
-    background-color: black;
-}
+
 h1{
     display:flex;
     justify-content: center;
-
 }
 h2{
     display:flex;

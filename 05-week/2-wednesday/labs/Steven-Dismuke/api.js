@@ -24,9 +24,11 @@ $.ajax({
 });
 function showMovieDetails(title, released,runtime){
   var heading = $("<h1/>").text(title);
-  $("body").append(heading);
+  $("div").append(heading);
   var released = $("<h2/>").text(released);
-  $("body").append("coming to theaters",released);
+  $("div").append("coming to theaters",released);
   var runtime = $("<h3/>").text(runtime);
-  $("body").append("Enjoy the",runtime,"movie");
+  $("div").append("Enjoy the",runtime,"movie");
+  $("div").setAttribute("src",'background.jpg');
 }
+
